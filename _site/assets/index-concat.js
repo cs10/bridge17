@@ -449,7 +449,7 @@ var hw1Spec         = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI')
     explorePost     = hw('"Explore" Writing Assignment', '4/7', '/discussion_topics/5125383', exploreSpec)
     explorePostDoc  = hw('"Explore" Writing Assignment Document Submission', '4/7', '/assignments/7768712')
     exploreComments = hw('"Explore" Comments', '4/12', '/discussion_topics/5125383')
-    fProposal       = hw('Final Project Proposal', '07/21', 'assignments/7768715', finalProjSpec)
+    fProposal       = hw('Final Project Proposal', '07/23', 'assignments/7768715', finalProjSpec)
     fMilestone      = hw('Final Project Milestone', '07/28', 'assignments/7768714')
     fProject        = hw('Final Project', '08/04', 'assignments/7768713', finalProjSpec)
 
@@ -468,12 +468,13 @@ cs10.week1 = {
                 'optional'),
     ],
     lectures: [
+        lect('Abstraction', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QS21oamFTYmN5aWM'),
         lect('Building Blocks', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QS21oamFTYmN5aWM'),
-        lect('Numbers and Abstraction', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QeGNQakQxN3FmMnc'),
-        lect('Lists and Scoping', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8')
+        lect('Numbers and Abstraction', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QeGNQakQxN3FmMnc')
     ],
     labs: [lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
-           lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic', true)],
+           lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic')
+    ],
     disc: disc('Welcome to CS10!'),
     hw: hw0
 };
@@ -487,13 +488,13 @@ cs10.week2 = {
                 '/bridge17/resources/readings/btb/chapter1.pdf')
     ],
     lectures: [
+        lect('Scoping', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8'),
         lect('Programming Paradigms', 'https://drive.google.com/drive/folders/0B7pxUEY76zATb1ZMRDFXN25oLVU?usp=sharing'),
-        lect('Lists and Scoping', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8'),
-        lect('Algorithms', 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QNXJoT0RKSEc3N2M')
+        lect('Lists', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8')
     ],
     labs: [
         lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic'),
-        lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true)
+        lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic')
     ],
     disc: disc('Power of Binary and Functions'),
     hw: hw1
@@ -516,19 +517,23 @@ cs10.week3 = {
                 'optional')
     ],
     lectures: [
+        lect('Algorithms', 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QNXJoT0RKSEc3N2M'),
         lect('Algorithmic Complexity', 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QZU1VbTlMLWVhNVE'),
-        lect('Recursion I', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk'),
-        lect("<strong> Midterm Exam </strong>")
+        lect('Recursion I', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk')
     ],
     labs: [
-        lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
-        lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true)
+        lab('Lists', 'berkeley_bjc/lists/lists-I.topic'),
+        lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic'),
+        lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic')
     ],
     disc: disc('Lists, and Algorithmic Complexity'),
     hw: hw2
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
+//lab('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic'),
+//lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
+//lab('The Internet', 'berkeley_bjc/areas/internet.topic', true)
 
 // FEB 6 - 10
 cs10.week4 = {
@@ -540,12 +545,12 @@ cs10.week4 = {
     ],
     lectures: [
         lect('Recursion II', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk'),
-        lect('Python I', 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QbmFTWlhEa25IZHc?usp=sharing'),
-        lect('Social Implications of Computing I', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QVWxuQzlMcHJKVlk')
+        lect('Concurrency', 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QUlpxdXR4MXV2cWM'),
+        lect('The Internet')
     ],
     labs: [
-        lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
-        lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true)
+        lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
+        lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic')
     ],
     disc: disc('Recursion'),
     hw: [hw2, fProposal]
@@ -558,13 +563,13 @@ cs10.week5 = {
         reading('As We May Think', 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/', 'optional')
     ],
     lectures: [
+        lect('Python I', 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QbmFTWlhEa25IZHc?usp=sharing'),
         lect('Python II', 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QRnFnY0VKNmMyY3M?usp=sharing'),
-        lect('The Internet'),
         lect('Social Implications of Computing I', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QVWxuQzlMcHJKVlk')
     ],
     labs: [
         lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
-        lab('The Internet', 'berkeley_bjc/areas/internet.topic', true)
+        lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
     ],
     disc: disc('Python'),
     hw: fMilestone
@@ -579,12 +584,11 @@ cs10.week6 = {
         reading('Present Shock -- When Everything Happened Now', 'https://www.youtube.com/watch?v=_z2oFCR-0pc&feature=youtu.be')
     ],
     lectures: [
-        lect('Limits of Computing'),
-        lect('Conclusion'),
-        lect('<strong> Final Exam </strong>')
+        lect('Social Implications of Computing II'),
+        lect('Summary and Farewell'),
+        lect('<strong> Final Exam Review </strong>')
     ],
     labs: [
-        lab("Project Work Session"),
         lab("Project Work Session")
     ],
     disc: disc('Future of Computing'),
@@ -628,7 +632,6 @@ cs10.week9 = {
     ],
     disc: disc('Midterm Prep'),
     lab1: lab('Midterm Project Work Session', null, true),
-    lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic'),
     /* AI */
     lect1: lect('Artificial Intelligence', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QNFVHVUdfbXYzcWM', "Pat Virtue"),
     //lect1: lect('Social Implications of Computing III'),
