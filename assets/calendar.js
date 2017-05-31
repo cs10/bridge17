@@ -167,6 +167,15 @@ cs10.newHomeworkObject = function(title, due, submission, spec) {
     return obj;
 };
 
+cs10.newExamObject = function(title, url) {
+    var exam = {};
+    exam['title'] = title;
+    exam['url'] = url;
+    console.log('hhhhhhheeeerrreee');
+    console.log(exam);
+    return exam;
+};
+
 // ==================================================
 // ==========     RENDERING CODE           ==========
 // ==================================================
@@ -189,14 +198,11 @@ cs10.renderTableCalendar = function() {
 
 cs10.weeklyFormat = [
     'readings', // Readings
-    // 'lect1',    // Mon Lecture
     'lectures',
     'labs',
-    // 'lab1',     // 1st Lab
-    // 'lect2',    // Wed Lecture
-    // 'lab2',     // 2nd Lab
-    'disc',     // Discussion
-    'hw'        // Assignments
+    'disc',     
+    'hw',
+    'exams'
 ];
 
 cs10.renderTableRow = function(week, data) {
@@ -227,6 +233,7 @@ cs10.renderCell = function(cellType, data) {
     // This allows multiple of the same type of item in a week.
     // TODO: Use indexOf or key.match(/functionName|functionNoNum/i) ?
     console.log(functionNoNum);
+    console.log("heeeeeere");
     var render = Object.getOwnPropertyNames(cs10).filter(function(x) {
         var key = x.toLowerCase();
         // console.log(cellType, x);
@@ -385,6 +392,28 @@ cs10.renderTableHW = function(hw) {
         }
         if (i + 1 < hw.length) {
             result.append('<hr>');
+        }
+    }
+    return result;
+};
+
+cs10.renderTableExam = function(exams) {
+    if (!(exams)) {
+        exams = [{}];
+    }
+    var result = $('<td>');
+    console.log("From rendertableexam");
+    if (!(exams instanceof Array)) {
+        exams = [ exams ];
+    }
+    console.log(exams);
+    for (var i = 0; i < exams.length; i += 1) {
+        var exam = exams[i];
+        var t = exam.title ? exam.title : "";
+        exam.title = title = $('<a>').attr({href: exam.url}).html(exam.title);
+        result.append(exam.title);
+        if (i + 1 < exams.length) {
+            result.append('<hr style="height:1px;color:white;background-color:white;" />');
         }
     }
     return result;

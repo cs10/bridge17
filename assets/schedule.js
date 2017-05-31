@@ -13,6 +13,7 @@ var lab      = cs10.newLabObject,
     lect     = cs10.newLectureObject,
     disc     = cs10.newDiscussionObject,
     hw       = cs10.newHomeworkObject,
+    exam     = cs10.newExamObject,
     startDate = new Date('01/14/2017'); // The SATURDAY before the first week of the calendar.
 
 function docs(id) {
@@ -85,7 +86,8 @@ cs10.week2 = {
     ],
     labs: [
         lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic'),
-        lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic')
+        lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
+        lab('Lists', 'berkeley_bjc/lists/lists-I.topic')
     ],
     disc: disc('Power of Binary and Functions'),
     hw: hw1
@@ -113,12 +115,14 @@ cs10.week3 = {
         lect('Recursion I', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk')
     ],
     labs: [
-        lab('Lists', 'berkeley_bjc/lists/lists-I.topic'),
         lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic'),
         lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic')
     ],
     disc: disc('Lists, and Algorithmic Complexity'),
-    hw: hw2
+    hw: hw2,
+    exams: [exam("With-Snap! midterm", ""),
+        exam("Paper midterm", "")
+    ]
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -183,7 +187,10 @@ cs10.week6 = {
         lab("Project Work Session")
     ],
     disc: disc('Future of Computing'),
-    hw: fProject
+    hw: fProject,
+    exams: [exam("With-Snap! final", ""),
+        exam("Paper final", "")
+    ]
 };
 
 // FEB 27 - MAR 3
