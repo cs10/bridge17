@@ -167,11 +167,11 @@ cs10.newHomeworkObject = function(title, due, submission, spec) {
     return obj;
 };
 
-cs10.newExamObject = function(title, url) {
+cs10.newExamObject = function(title, url, loc) {
     var exam = {};
     exam['title'] = title;
     exam['url'] = url;
-    console.log('hhhhhhheeeerrreee');
+    exam['loc'] = loc;
     console.log(exam);
     return exam;
 };
@@ -412,6 +412,7 @@ cs10.renderTableExam = function(exams) {
         var t = exam.title ? exam.title : "";
         exam.title = title = $('<a>').attr({href: exam.url}).html(exam.title);
         result.append(exam.title);
+        result.append(exam.loc);
         if (i + 1 < exams.length) {
             result.append('<hr style="height:1px;color:white;background-color:white;" />');
         }

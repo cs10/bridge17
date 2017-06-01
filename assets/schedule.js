@@ -120,8 +120,8 @@ cs10.week3 = {
     ],
     disc: disc('Lists, and Algorithmic Complexity'),
     hw: hw2,
-    exams: [exam("With-Snap! midterm", ""),
-        exam("Paper midterm", "")
+    exams: [exam("With-Snap<i>!</i> Midterm", "", "<br> <strong> Friday 07/14 </strong> <br> <u> 10-12AM at 277 Soda </u>"),
+        exam("Paper Midterm", "", "<br> <strong> Friday 07/14 </strong> <br> <u> 3-5PM TBD </u>")
     ]
 };
 // cs10.week3.lect3.classes = 'exam';
@@ -188,8 +188,8 @@ cs10.week6 = {
     ],
     disc: disc('Future of Computing'),
     hw: fProject,
-    exams: [exam("With-Snap! final", ""),
-        exam("Paper final", "")
+    exams: [exam("With-snap<i>!</i> and Python Final", "", "<br> <strong> Friday 08/04 </strong> <br> <u> 10-12AM at 277 Soda </u> "),
+        exam("Paper Final", "", "<br> <strong> Friday 07/14 </strong> <br> <u> 5-7PM TBD </u>")
     ]
 };
 
