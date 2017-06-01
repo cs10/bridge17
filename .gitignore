@@ -1,4 +1,2 @@
 _site/*
-_config.yml
-_config-inst.yml
-
+Gemfile.lock

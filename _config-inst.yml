@@ -20,8 +20,8 @@ sass:
 
 # Custom Data
 bCourses: 1453061
-labsCourse: cs10_sp17.html
-piazzaURL: berkeley/fall2016/cs10/home
+labsCourse: cs10_bridge17.html
+piazzaURL: berkeley/summer2017/csn10/home
 # IS INST DOWN?
 labsurl: http://beautyjoy.github.io/bjc-r
 #labsurl: https://inst.eecs.berkeley.edu/~cs10/labs
