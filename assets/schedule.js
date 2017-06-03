@@ -33,17 +33,17 @@ var hw1Spec         = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI')
     exploreSpec     = docs('1PBNq7SMU4KUHRMFvJIy1HBZP-3r6ThjvFwrOJ800RhU')
     finalProjSpec   = docs('1dJdqxrLtC6q5kSXazyhxoOUM0ERc1kkGiPAGH60ajtw')
     hw0             = hw('HW0', '06/30', 'quizzes/2266425')
-    hw1             = hw('HW1: Word Guessing', '07/07', 'assignments/7768716', hw1Spec)
-    hw2             = hw('HW2: Encryptify', '07/21', 'assignments/7768717', hw2Spec)
-    hw3             = hw('HW3: 2048','3/3', 'assignments/7768718', hw3Spec)
-    mProposal       = hw('Midterm Project Proposals', '3/5', 'assignments/7768721', mtProjSpec)
-    mProject        = hw('Midterm Project', '3/15', 'assignments/7768719', mtProjSpec)
-    explorePost     = hw('"Explore" Writing Assignment', '4/7', '/discussion_topics/5125383', exploreSpec)
-    explorePostDoc  = hw('"Explore" Writing Assignment Document Submission', '4/7', '/assignments/7768712')
-    exploreComments = hw('"Explore" Comments', '4/12', '/discussion_topics/5125383')
-    fProposal       = hw('Final Project Proposal', '07/23', 'assignments/7768715', finalProjSpec)
-    fMilestone      = hw('Final Project Milestone', '07/28', 'assignments/7768714')
-    fProject        = hw('Final Project', '08/04', 'assignments/7768713', finalProjSpec)
+    hw1             = hw('HW1: Word Guessing', '07/07', 'assignments/7768716') //, hw1Spec)
+    hw2             = hw('HW2: Encryptify', '07/21', 'assignments/7768717') //, hw2Spec)
+    hw3             = hw('HW3: 2048','3/3', 'assignments/7768718') //, hw3Spec)
+    mProposal       = hw('Midterm Project Proposals', '3/5', 'assignments/7768721') //, mtProjSpec)
+    mProject        = hw('Midterm Project', '3/15', 'assignments/7768719') //, mtProjSpec)
+    explorePost     = hw('"Explore" Writing Assignment', '4/7', '/discussion_topics/5125383') //, exploreSpec)
+    explorePostDoc  = hw('"Explore" Writing Assignment Document Submission', '4/7') //, '/assignments/7768712')
+    exploreComments = hw('"Explore" Comments', '4/12') //, '/discussion_topics/5125383')
+    fProposal       = hw('Final Project Proposal', '07/23') //, 'assignments/7768715', finalProjSpec)
+    fMilestone      = hw('Final Project Milestone', '07/28') //, 'assignments/7768714')
+    fProject        = hw('Final Project', '08/04') //, 'assignments/7768713', finalProjSpec)
 
 // ==================================================
 // ==========     SCHEDULE ITEMS           ==========
@@ -65,7 +65,8 @@ cs10.week1 = {
         lect('Numbers and Abstraction', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QeGNQakQxN3FmMnc')
     ],
     labs: [lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
-           lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic')
+           lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
+           lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic')
     ],
     disc: disc('Welcome to CS10!'),
     hw: hw0
@@ -85,7 +86,6 @@ cs10.week2 = {
         lect('Lists', 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8')
     ],
     labs: [
-        lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic'),
         lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
         lab('Lists', 'berkeley_bjc/lists/lists-I.topic')
     ],
