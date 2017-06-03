@@ -51,8 +51,8 @@ cs10.week1 = {
                 'optional'),
     ],
     lectures: [
-        lect('Abstraction') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QS21oamFTYmN5aWM'),
-        lect('Building Blocks') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QS21oamFTYmN5aWM'),
+        lect('Abstraction'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QS21oamFTYmN5aWM'),
+        lect('Building Blocks'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QS21oamFTYmN5aWM'),
         lect('Numbers and Abstraction') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QeGNQakQxN3FmMnc')
     ],
     labs: [lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
@@ -72,8 +72,8 @@ cs10.week2 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf')
     ],
     lectures: [
-        lect('Scoping') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8'),
-        lect('Programming Paradigms') //, 'https://drive.google.com/drive/folders/0B7pxUEY76zATb1ZMRDFXN25oLVU?usp=sharing'),
+        lect('Scoping'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8'),
+        lect('Programming Paradigms'), //, 'https://drive.google.com/drive/folders/0B7pxUEY76zATb1ZMRDFXN25oLVU?usp=sharing'),
         lect('Lists') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8')
     ],
     labs: [
@@ -101,8 +101,8 @@ cs10.week3 = {
                 'optional')
     ],
     lectures: [
-        lect('Algorithms') //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QNXJoT0RKSEc3N2M'),
-        lect('Algorithmic Complexity') //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QZU1VbTlMLWVhNVE'),
+        lect('Algorithms'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QNXJoT0RKSEc3N2M'),
+        lect('Algorithmic Complexity'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QZU1VbTlMLWVhNVE'),
         lect('Recursion I') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk')
     ],
     labs: [
@@ -130,8 +130,8 @@ cs10.week4 = {
         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/')
     ],
     lectures: [
-        lect('Recursion II') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk'),
-        lect('Concurrency') //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QUlpxdXR4MXV2cWM'),
+        lect('Recursion II'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk'),
+        lect('Concurrency'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QUlpxdXR4MXV2cWM'),
         lect('The Internet')
     ],
     labs: [
@@ -149,8 +149,8 @@ cs10.week5 = {
         reading('As We May Think', 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/', 'optional')
     ],
     lectures: [
-        lect('Python I') //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QbmFTWlhEa25IZHc?usp=sharing'),
-        lect('Python II') //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QRnFnY0VKNmMyY3M?usp=sharing'),
+        lect('Python I'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QbmFTWlhEa25IZHc?usp=sharing'),
+        lect('Python II'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QRnFnY0VKNmMyY3M?usp=sharing'),
         lect('Social Implications of Computing I') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QVWxuQzlMcHJKVlk')
     ],
     labs: [
