@@ -180,7 +180,7 @@ cs10.week6 = {
     disc: disc('Future of Computing'),
     hw: fProject,
     exams: [exam("With-snap<i>!</i> and Python Final", "", "<br> <strong> Friday 08/04 </strong> <br> <u> 10-12AM at 277 Soda </u> "),
-        exam("Paper Final", "", "<br> <strong> Friday 07/14 </strong> <br> <u> 5-7PM TBD </u>")
+        exam("Paper Final", "", "<br> <strong> Friday 08/04 </strong> <br> <u> 5-7PM TBD </u>")
     ]
 };
 
