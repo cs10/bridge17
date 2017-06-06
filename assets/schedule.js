@@ -72,9 +72,9 @@ cs10.week2 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf')
     ],
     lectures: [
-        lect('Scoping'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8'),
         lect('Programming Paradigms'), //, 'https://drive.google.com/drive/folders/0B7pxUEY76zATb1ZMRDFXN25oLVU?usp=sharing'),
-        lect('Lists') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8')
+        lect('Lists'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8')
+        lect('Scoping and Mutability') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8'),
     ],
     labs: [
         lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
