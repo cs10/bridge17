@@ -46,9 +46,10 @@ cs10.week1 = {
         reading('Prof. Harvey\'s Intro to Abstraction',
                 docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY')),
         reading('Learning to Code!', 'http://www.youtube.com/watch?v=dU1xS07N-FA'),
-        reading('Is Abstraction the Key to Computing?',
-                bcourses('59744797'),
-                'optional'),
+        reading('Is Abstraction the Key Programming?',
+                bcourses('59744797')),
+        reading('Learning to Code!', 'http://www.youtube.com/watch?v=dU1xS07N-FA'),
+        reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
     ],
     lectures: [
         lect('Abstraction'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QS21oamFTYmN5aWM'),
@@ -124,9 +125,7 @@ cs10.week3 = {
 // JUL 17 - 21
 cs10.week4 = {
     readings: [
-        reading(
-            'Why Python is a Great First Language',
-            'http://blog.trinket.io/why-python/'),
+        reading('TED: What is the Internet?', 'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/')
     ],
     lectures: [
@@ -145,8 +144,11 @@ cs10.week4 = {
 // JUL 23 - 28
 cs10.week5 = {
     readings: [
-        reading('TED: What is the Internet?', 'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
-        reading('As We May Think', 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/', 'optional')
+        reading(
+            'Why Python is a Great First Language',
+            'http://blog.trinket.io/why-python/'),
+        reading('As We May Think',
+                'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/', 'optional')
     ],
     lectures: [
         lect('Python I'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QbmFTWlhEa25IZHc?usp=sharing'),
