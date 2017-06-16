@@ -410,7 +410,7 @@ cs10.renderTableExam = function(exams) {
     for (var i = 0; i < exams.length; i += 1) {
         var exam = exams[i];
         var t = exam.title ? exam.title : "";
-        exam.title = title = $('<a>').attr({href: exam.url}).html(exam.title);
+        //exam.title = title = $('<a>').attr({href: exam.url}).html(exam.title);
         result.append(exam.title);
         result.append(exam.loc);
         if (i + 1 < exams.length) {
