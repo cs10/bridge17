@@ -25,4 +25,4 @@ Nah.
 
 ## WHAT COMMITMENTS WILL BE CONSUMING YOUR CYCLES THIS SEMESTER?
 
-CS10, other (less important) classes, running between campus and home to take care of my cat and dog, and playing racquetball.
+CS10, other (less important) classes, getting scratched by my cat, and playing racquetball.
