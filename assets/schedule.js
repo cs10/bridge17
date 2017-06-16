@@ -101,8 +101,8 @@ cs10.week3 = {
                 'optional')
     ],
     lectures: [
-        lect('Algorithms'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QNXJoT0RKSEc3N2M'),
-        lect('Algorithmic Complexity'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QZU1VbTlMLWVhNVE'),
+        lect('Algorithms I'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QNXJoT0RKSEc3N2M'),
+        lect('Algorithns II'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QZU1VbTlMLWVhNVE'),
         lect('Recursion I') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk')
     ],
     labs: [

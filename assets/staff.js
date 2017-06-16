@@ -112,6 +112,12 @@ var laraM = {
 
 // Readers
 
+var arvindN = {
+    name: 'Reader Arvind Nandakumar',
+    imgSrc: '../Sp17/las/ArvindNandakumar.jpg',
+    img: 'ArvindNandakumar.jpg',
+};
+
 //var angelaW = {
     //name: 'Reader Angela Wong',
     //imgSrc: '../Sp17/las/AngelaWong.jpg',
@@ -157,12 +163,6 @@ var laraM = {
     //name: 'LA Aprillia Judokusumo',
     //imgSrc: '../Sp17/las/AprilliaJudokusumo.jpg',
     //img: 'AprilliaJudokusumo.jpg',
-//};
-
-//var arvindN = {
-    //name: 'LA Arvind Nandakumar',
-    //imgSrc: '../Sp17/las/ArvindNandakumar.jpg',
-    //img: 'ArvindNandakumar.jpg',
 //};
 
 //var bardiaB = {
@@ -271,7 +271,7 @@ var laraM = {
 
 var inst = [ carlosF ];
 var tas = [laraM, lizzyS];
-var readers = [];
+var readers = [arvindN];
 //var las = [samuelS, amyL, andresG, aprillaJ, arvindN, bardiaB, batoolN, bhumikaG, calvinP, gabrielV, hannahV, jingjingJ, jocelynS, leonorA, lyricY, maxY, michelleC, rafaelF, vardaS, veraG];
 
 // If you need to add a new SECTION add it to this object.
