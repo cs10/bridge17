@@ -1,43 +1,16 @@
 // Instructors
 
-//var DanGarcia = {
-    //name: 'Teaching Professor Dan Garcia',
-    //img: 'DanGarciaUCBFaculty2004.jpg',
-    //imgSrc: 'DanGarcia.jpg',
-    //imgCrazy: true,
-    //web: 'http://www.cs.berkeley.edu/~ddgarcia/',
-    //bio: 'DanBio',
-    //email: 'dan@cs10.org',
-    //office: '777 Soda, (510) 517-4041'
-//};
-//
 var carlosF = {
     name: 'Instructor Carlos Flores',
     img: 'Fa16/CarlosFlores.jpg',
     bio: 'CarlosBio',
     imgSrc: '../Fa16/CarlosFlores.jpg',
-    imgCrazy: '../small/CarlosFloresCrazy.jpg',
+    //imgCrazy: '../small/CarlosFloresCrazy.jpg',
     email: 'carlos@cs10.org',
     web: 'http://carlos.codes'
 };
 
 // TAs
-
- //var addisonH = {
-    //name: 'TA Addison Howe',
-    //img: 'Fa16/AddisonHowe.JPG',
-    //email: 'addison@cs10.org',
-    //imgSrc: '../Sp17/AddisonHowe.jpg',
-    //};
-
-
-//var christianL = {
-    //name: 'TA Christian Lista-Nicoloso',
-    //img: 'Christian Lista-Nicoloso.JPG',
-    //bio: 'ChristianBio',
-    //imgSrc: '../Fa16/Christian Lista-Nicoloso.JPG',
-    //email: 'christian@cs10.org'
-//};
 
 var lizzyS = {
     name: 'TA Lizzy Steger',
@@ -46,23 +19,6 @@ var lizzyS = {
     bio: 'LizzyBio',
     email: 'lizzy@cs10.org'
 };
-
-//var erikD = {
-    //name: 'TA Erik Dahlquist',
-    //img: 'Sp15/ErikDahlquist.jpg',
-    //imgSrc: 'ErikDahlquist.jpg',
-    //bio: 'ErikBio',
-    //email: 'erik@cs10.org'
-//};
-
-
-//var jobelV = {
-    //name: 'TA Jobel Vecino',
-    //img: 'Fa13/JobelVecino.jpg',
-    //imgSrc: 'JobelVecino.jpg',
-    //bio: 'JobelBio',
-    //email: 'jobel@cs10.org'
-//};
 
 var laraM = {
     name: 'Head TA Lara McConnaughey',
@@ -74,41 +30,6 @@ var laraM = {
     email: 'lara@cs10.org'
 };
 
-//var mansiS = {
-    //name: 'TA Mansi Shah',
-    //img: 'MansiShah.jpg',
-    //imgSrc: '../Sp17/MansiShah.jpg',
-    //email: 'mansi@cs10.org',
-    //bio: 'MansiBio'
-//};
-
-//var patriciaX = {
-    //name: 'TA Patricia Xiao',
-    //img: '../Sp17/PatriciaXiao.jpg',
-    //imgSrc: '../Sp17/PatriciaXiao.jpg',
-    //email: 'patricia@cs10.org',
-    //bio: 'PatriciaBio',
-//};
-
-//var stevenT = {
-    //name: 'Head TA Steven Traversi',
-    //img: 'Sp17/StevenTraversi.jpg',
-    //imgSrc: '../Sp17/StevenTraversi.jpg',
-    //imgCrazy: '../small/StevenTraversiCrazy.jpg',
-    //web: 'http://steven.codes',
-    //bio: 'StevenBio',
-    //email: 'steven@cs10.org'
-//};
-
-//var yifatA = {
-  //name: 'TA Yifat Amir',
-  //img: 'Sp17/YifatAmir.jpg',
-  //imgSrc: '../Sp17/YifatAmir.jpg',
-  //imgCrazy: '../small/YifatAmirCrazy.jpg',
-  //bio: 'YifatBio',
-  //web: 'https://www.linkedin.com/in/yifat-amir-45633584',
-  //email: 'yifat@cs10.org'
-//};
 
 // Readers
 
@@ -116,33 +37,15 @@ var arvindN = {
     name: 'Reader Arvind Nandakumar',
     imgSrc: '../Sp17/las/ArvindNandakumar.jpg',
     img: 'ArvindNandakumar.jpg',
+    email: 'an179438@berkeley.edu'
 };
 
-//var angelaW = {
-    //name: 'Reader Angela Wong',
-    //imgSrc: '../Sp17/las/AngelaWong.jpg',
-    //img: 'AngelaWong.jpg',
-//};
-
-//var matthewS = {
-    //name: 'Reader Matthew Schwartz',
-    //img: 'Fa16/MatthewSchwartz.JPG',
-    //imgSrc: '../Fa16/MatthewSchwartz.JPG',
-//};
-
-//var noahJ = {
-    //name: 'Reader Noah Jacobs',
-    //imgSrc: '../Sp17/NoahJacobs.jpg',
-    //img: 'Fa16/NoahJacobs.jpg',
-//};
-
-//var hectorA = {
-    //name: 'Reader Hector Aguilar',
-    //imgSrc: '../Fa16/HectorAguilar.jpg',
-    //img: 'Fa16/HectorAguilar.jpg',
-    //imgCrazy: '../small/HectorAguilarCrazy.jpg',
-//};
-
+var niketK = {
+    name: 'Reader Niket Kulkarni',
+    imgSrc: '../small/NPY.jpg',
+    img: 'NPY.jpg.jpg',
+    email: 'niket.kul@berkeley.edu'
+};
 
  //Lab Assistants
 
@@ -271,7 +174,7 @@ var arvindN = {
 
 var inst = [ carlosF ];
 var tas = [laraM, lizzyS];
-var readers = [arvindN];
+var readers = [arvindN, niketK];
 //var las = [samuelS, amyL, andresG, aprillaJ, arvindN, bardiaB, batoolN, bhumikaG, calvinP, gabrielV, hannahV, jingjingJ, jocelynS, leonorA, lyricY, maxY, michelleC, rafaelF, vardaS, veraG];
 
 // If you need to add a new SECTION add it to this object.
@@ -402,5 +305,5 @@ function normalImage(image, normalPath) {
 // Parameters: a section (HTML 'id') and num of images per row.
 buildGroup('inst', 5);
 buildGroup('tas', 2);
-buildGroup('readers', 1);
+buildGroup('readers', 2);
 //buildGroup('las', 5);
