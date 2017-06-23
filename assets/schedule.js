@@ -108,7 +108,7 @@ cs10.week3 = {
     ],
     labs: [
         lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic'),
-        lab('Algorithmic Complexity', 'berkeley_bjc/areas/algorithm-complexity.topic')
+        lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic')
     ],
     disc: disc('Lists, and Algorithmic Complexity'),
     hw: hw2,
@@ -134,8 +134,8 @@ cs10.week4 = {
         lect('The Internet')
     ],
     labs: [
-        lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
-        lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic')
+        lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
+        lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic')
     ],
     disc: disc('Recursion'),
     hw: [hw2, fProposal]
@@ -157,7 +157,7 @@ cs10.week5 = {
     ],
     labs: [
         lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
-        lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic'),
+        exam("With-snap<i>!</i> and Python Final", "", "<br> <strong> Friday 08/04 </strong> <br> <u> 10-12AM at 277 Soda </u> ")
     ],
     disc: disc('Python'),
     hw: fMilestone
@@ -181,8 +181,7 @@ cs10.week6 = {
     ],
     disc: disc('Future of Computing'),
     hw: fProject,
-    exams: [exam("With-snap<i>!</i> and Python Final", "", "<br> <strong> Friday 08/04 </strong> <br> <u> 10-12AM at 277 Soda </u> "),
-        exam("Paper Final", "", "<br> <strong> Friday 08/04 </strong> <br> <u> 5-7PM 306 Soda </u>")
+    exams: [exam("Paper Final", "", "<br> <strong> Tuesday 08/01 </strong> <br> <u> 10-12PM 306 Soda </u>")
     ]
 };
 
