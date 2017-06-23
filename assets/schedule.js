@@ -112,9 +112,7 @@ cs10.week3 = {
     ],
     disc: disc('Lists, and Algorithmic Complexity'),
     hw: hw2,
-    exams: [exam("With-Snap<i>!</i> Midterm", "", "<br> <strong> Friday 07/14 </strong> <br> <u> 10-12AM at 277 Soda </u>"),
-        exam("Paper Midterm", "", "<br> <strong> Friday 07/14 </strong> <br> <u> 3-5PM 306 Soda </u>")
-    ]
+    exams: [exam("Paper Midterm", "", "<br> <strong> Friday 07/14 </strong> <br> <u> 3-5PM 306 Soda </u>")]
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -157,10 +155,9 @@ cs10.week5 = {
     ],
     labs: [
         lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
-        exam("With-snap<i>!</i> and Python Final", "", "<br> <strong> Friday 08/04 </strong> <br> <u> 10-12AM at 277 Soda </u> ")
+        exam("With-snap<i>!</i> and Python Final", "", "<br> <strong> Friday 07/28 </strong> <br> <u> 10-12AM at 277 Soda </u> ")
     ],
-    disc: disc('Python'),
-    hw: fMilestone
+    disc: disc('Python')
 };
 
 
