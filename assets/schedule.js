@@ -169,9 +169,7 @@ cs10.week6 = {
         reading('Present Shock -- When Everything Happened Now', 'https://www.youtube.com/watch?v=_z2oFCR-0pc&feature=youtu.be')
     ],
     lectures: [
-        lect('Social Implications of Computing II'),
-        lect('Summary and Farewell'),
-        lect('<strong> Final Exam Review </strong>')
+        lect('Summary and Farewell')
     ],
     labs: [
         lab("Project Work Session")
