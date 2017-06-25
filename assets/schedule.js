@@ -156,7 +156,8 @@ cs10.week5 = {
         lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
         exam("With-snap<i>!</i> and Python Final", "", "<br> <strong> Friday 07/28 </strong> <br> <u> 10-12AM at 277 Soda </u> ")
     ],
-    disc: disc('Python')
+    disc: disc('Python'),
+    hw: fProject
 };
 
 
