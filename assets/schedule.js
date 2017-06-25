@@ -174,9 +174,8 @@ cs10.week6 = {
     labs: [
         lab("Project Work Session")
     ],
-    disc: disc('Future of Computing'),
     hw: fProject,
-    exams: [exam("Paper Final", "", "<br> <strong> Tuesday 08/01 </strong> <br> <u> 10-12PM 306 Soda </u>")
+    exams: [exam("Paper Final", "", "<br> <strong> Tuesday 08/01 </strong> <br> <u> 9-11PM 306 Soda </u>")
     ]
 };
 
