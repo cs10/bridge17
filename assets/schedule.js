@@ -30,11 +30,10 @@ var hw1Spec         = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI')
     hw2Spec         = docs('1X4Oq4aZSsNBl-f5xEwWAkNxUo7-ktAWFKRyEr9fHDUQ')
     finalProjSpec   = docs('1dJdqxrLtC6q5kSXazyhxoOUM0ERc1kkGiPAGH60ajtw')
     hw0             = hw('HW0', '06/30', 'quizzes/2266425')
-    hw1             = hw('HW1: Word Guessing', '07/07', 'assignments/7768716') //, hw1Spec)
-    hw2             = hw('HW2: Encryptify', '07/21', 'assignments/7768717') //, hw2Spec)
-    fProposal       = hw('Final Project Proposal', '07/23') //, 'assignments/7768715', finalProjSpec)
-    fMilestone      = hw('Final Project Milestone', '07/28') //, 'assignments/7768714')
-    fProject        = hw('Final Project', '08/04') //, 'assignments/7768713', finalProjSpec)
+    hw1             = hw('HW1: Word Guessing', '07/05', 'assignments/7768716') //, hw1Spec)
+    hw2             = hw('HW2: Encryptify', '07/19', 'assignments/7768717') //, hw2Spec)
+    fProposal       = hw('Final Project Proposal', '07/20') //, 'assignments/7768715', finalProjSpec)\
+    fProject        = hw('Final Project', '08/02') //, 'assignments/7768713', finalProjSpec)
 
 // ==================================================
 // ==========     SCHEDULE ITEMS           ==========
