@@ -165,6 +165,7 @@ cs10.week5 = {
     disc: [disc('Python'),
             disc('Farewell')
     ],
+    hw: fProject
 };
 
 
