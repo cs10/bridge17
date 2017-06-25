@@ -167,12 +167,10 @@ cs10.newHomeworkObject = function(title, due, submission, spec) {
     return obj;
 };
 
-cs10.newExamObject = function(title, url, loc) {
+cs10.newExamObject = function(title, url) {
     var exam = {};
     exam['title'] = title;
     exam['url'] = url;
-    exam['loc'] = loc;
-    console.log(exam);
     return exam;
 };
 
@@ -337,21 +335,31 @@ cs10.renderTableLab = function(labs) {
     return result;
 };
 
-cs10.renderTableDiscussion = function(disc) {
+cs10.renderTableDiscussion = function(discs) {
     var result = $('<td>');
-    if (!disc) {
-        result.append('No Discussion');
-        result.attr({'class': 'noClass'});
-    } else if (typeof disc === 'string') {
-        result.append(disc);
-    } else {
-        result.append(disc.title);
-        result.append('<br>');
-        result.attr({ 'class' : disc.classes });
-        if (disc.url) {
-            var url = $('<a>').html('Resources').attr({'href' : disc.url});
-            result.append($('<br>'));
-            result.append($('<strong>').html('(' + url[0].outerHTML + ')'));
+    if (!(discs instanceof Array)) {
+        discs = [ discs ];
+    }
+
+    for (var i = 0; i < discs.length; i += 1) {
+        var disc = discs[i];
+        if (!disc) {
+            result.append('No Discussion');
+            result.attr({'class': 'noClass'});
+        } else if (typeof disc === 'string') {
+            result.append(disc);
+        } else {
+            result.append(disc.title);
+            result.append('<br>');
+            result.attr({ 'class' : disc.classes });
+            if (disc.url) {
+                var url = $('<a>').html('Resources').attr({'href' : disc.url});
+                result.append($('<br>'));
+                result.append($('<strong>').html('(' + url[0].outerHTML + ')'));
+            }
+            if (i + 1 < discs.length) {
+                result.append('<hr style="height:1px;color:white;background-color:white;" />');
+            }
         }
     }
     return result;
@@ -410,9 +418,8 @@ cs10.renderTableExam = function(exams) {
     for (var i = 0; i < exams.length; i += 1) {
         var exam = exams[i];
         var t = exam.title ? exam.title : "";
-        //exam.title = title = $('<a>').attr({href: exam.url}).html(exam.title);
+        exam.title = title = $('<a>').attr({href: exam.url}).html(exam.title);
         result.append(exam.title);
-        result.append(exam.loc);
         if (i + 1 < exams.length) {
             result.append('<hr style="height:1px;color:white;background-color:white;" />');
         }

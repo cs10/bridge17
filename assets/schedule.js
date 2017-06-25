@@ -45,10 +45,7 @@ cs10.week1 = {
         reading('Prof. Harvey\'s Intro to Abstraction',
                 docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY')),
         reading('Learning to Code!', 'http://www.youtube.com/watch?v=dU1xS07N-FA'),
-        reading('Is Abstraction the Key Programming?',
-                bcourses('59744797')),
-        reading('Learning to Code!', 'http://www.youtube.com/watch?v=dU1xS07N-FA'),
-        reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
+        reading('Dan Garcia\' TEDxBerkeley Talk', 'https://www.youtube.com/watch?v=ozRovyDwKEM')
     ],
     lectures: [
         lect('Abstraction'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QS21oamFTYmN5aWM'),
@@ -59,7 +56,9 @@ cs10.week1 = {
            lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
            lab('Conditionals and Reporters', 'berkeley_bjc/intro_pair/3-conditionals.topic')
     ],
-    disc: disc('Welcome to CS10!'),
+    disc: [disc('Welcome to CS10!'),
+            disc('Power of Binary and Booleans')
+    ],
     hw: hw0
 };
 
@@ -69,7 +68,8 @@ cs10.week2 = {
         reading('The Story of Alan Turing &amp; His Machine',
                 'https://youtu.be/CQhrMmbiaM0'),
         reading('BtB Chapter 1',
-                '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf')
+                '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
+        reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
     ],
     lectures: [
         lect('Programming Paradigms'), //, 'https://drive.google.com/drive/folders/0B7pxUEY76zATb1ZMRDFXN25oLVU?usp=sharing'),
@@ -80,7 +80,9 @@ cs10.week2 = {
         lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
         lab('Lists', 'berkeley_bjc/lists/lists-I.topic')
     ],
-    disc: disc('Power of Binary and Functions'),
+    disc: [disc('Functions'),
+            disc('Lists')
+    ],
     hw: hw1
 };
 
@@ -102,14 +104,16 @@ cs10.week3 = {
     ],
     lectures: [
         lect('Algorithms I'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QNXJoT0RKSEc3N2M'),
-        lect('Algorithns II'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QZU1VbTlMLWVhNVE'),
-        lect('Recursion I') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk')
+        lect('Algorithms II'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QZU1VbTlMLWVhNVE'),
+        lect('The Internet')
     ],
     labs: [
         lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic'),
         lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic')
     ],
-    disc: disc('Lists, and Algorithmic Complexity'),
+    disc: [disc('Algoritmic Complexity'),
+            disc('Internet & Midterm Review')
+    ],
     hw: hw2,
     exams: [exam("Paper Midterm", "", "<br> <strong> Friday 07/14 </strong> <br> <u> 3-5PM 306 Soda </u>")]
 };
@@ -126,15 +130,17 @@ cs10.week4 = {
         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/')
     ],
     lectures: [
+        lect('Recursion I'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk')
         lect('Recursion II'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk'),
-        lect('Concurrency'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QUlpxdXR4MXV2cWM'),
-        lect('The Internet')
+        lect('Guest Lecture: Concurrency & Distributed Systems') //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QUlpxdXR4MXV2cWM'),
     ],
     labs: [
         lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
         lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic')
     ],
-    disc: disc('Recursion'),
+    disc: [disc('Recursion I'),
+            disc('Recursion II & Concurrency')
+    ],
     hw: [hw2, fProposal]
 };
 
@@ -150,13 +156,15 @@ cs10.week5 = {
     lectures: [
         lect('Python I'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QbmFTWlhEa25IZHc?usp=sharing'),
         lect('Python II'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QRnFnY0VKNmMyY3M?usp=sharing'),
-        lect('Social Implications of Computing I') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QVWxuQzlMcHJKVlk')
+        lect('Guest Lecture: Geopolitics') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QVWxuQzlMcHJKVlk')
     ],
     labs: [
         lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
         exam("With-snap<i>!</i> and Python Final", "", "<br> <strong> Friday 07/28 </strong> <br> <u> 10-12AM at 277 Soda </u> ")
     ],
-    disc: disc('Python')
+    disc: [disc('Python'),
+            disc('Farewell')
+    ],
 };
 
 
