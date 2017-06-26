@@ -48,7 +48,7 @@ cs10.week1 = {
         reading('Dan Garcia\' TEDxBerkeley Talk', 'https://www.youtube.com/watch?v=ozRovyDwKEM')
     ],
     lectures: [
-        lect('Abstraction', "https://www.icloud.com/keynote/0fewPMRrDWfv3pkmykATfo87Q#Lecture_01_Welcome_and_Abstraction",
+        lect('Welcome & Abstraction', "https://www.icloud.com/keynote/0fewPMRrDWfv3pkmykATfo87Q#Lecture_01_Welcome_and_Abstraction",
                 null, "https://youtu.be/REEwEi5CLak"), 
         lect('Building Blocks'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QS21oamFTYmN5aWM'),
         lect('Numbers and Abstraction') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QeGNQakQxN3FmMnc')
