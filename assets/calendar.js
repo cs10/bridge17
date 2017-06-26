@@ -290,15 +290,12 @@ cs10.renderTableLecture = function(lectures) {
                 result.append($('<br>'));
             }
             var title = lect.title;
-            if (lect.url) {
-                title = $('<a>').attr({href: lect.url}).html(lect.title);
-            }
             result.append(title);
             result.append('<br>');
             if (lect.video) {
-                result.append(
-                    $('<a>').attr({href: lect.video}).html('(Video)')
-                )
+                result.append($('<a>').attr({href: lect.url, target:"_blank"}).html('Slides'))
+                result.append(' | ');
+                result.append($('<a>').attr({href: lect.video, target:"_blank"}).html('Video'))
             }
             result.attr({ 'class' : lect.classes });
             if (i + 1 < lectures.length) {

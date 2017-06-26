@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Lara Bio"
 ---
 
 ## WHERE DID YOU GROW UP? WHAT WAS YOUR PATH TO CAL?

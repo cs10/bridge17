@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Lizzy Bio"
 ---
 
 ## WHERE DID YOU GROW UP? WHAT WAS YOUR PATH TO CAL?
