@@ -36,15 +36,15 @@ var laraM = {
 var arvindN = {
     name: 'Reader Arvind Nandakumar',
     imgSrc: '../Sp17/las/ArvindNandakumar.jpg',
-    img: 'ArvindNandakumar.jpg',
-    email: 'an179438@berkeley.edu'
+    img: 'ArvindNandakumar.jpg'
+//     email: 'an179438@berkeley.edu'
 };
 
 var niketK = {
     name: 'Reader Niket Kulkarni',
     imgSrc: '../small/NPY.jpg',
-    img: 'NPY.jpg.jpg',
-    email: 'niket.kul@berkeley.edu'
+    img: 'NPY.jpg.jpg'
+//     email: 'niket.kul@berkeley.edu'
 };
 
  //Lab Assistants
