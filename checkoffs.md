@@ -36,37 +36,25 @@ To get checked off, you should prepare answers to the specific questions for eac
 ## Quick Links
 
 * [Lab 1](#lab1) (Week 1)
-* [Lab 2](#lab2) (Week 2)
+* [Lab 2](#lab2) 
 * [Lab 3](#lab3)
-* [Lab 4](#lab4) (Week 3)
+* [Lab 4](#lab4) (Week 2)
 * [Lab 5](#lab5)
-* [Lab 6](#lab6) (Week 4)
-* [Lab 7](#lab7) (Week 5)
-* [Lab 8](#lab8)
-* [Lab 9](#lab9) (Week 6)
-* [Lab 10](#lab10) (Week 7)
-* [Lab 11](#lab11)
-* [Lab 12](#lab12) (Week 8)
-* [Lab 13](#lab13) (Week 9)
-* [Lab 14](#lab14)
-* [Lab 15](#lab15)
-* [Lab 16](#lab16) (Week 12)
-* [Lab 17](#lab17)
-* [Lab 18](#lab18)
+* [Lab 6](#lab6) (Week 3)
+* [Lab 7](#lab7) 
+* [Lab 8](#lab8) (Week 4)
+* [Lab 9](#lab9) 
+* [Lab 10](#lab10) (Week 10)
 </div>
 
 ---
 
 <div class="page-section" markdown="1">
 
-# Week 1: Lab 1: No check-off needed!
+# Week 1: Labs 1,2,3:
 
 ## Lab 1: Welcome to Snap<em>!</em>   {#lab1}
-* No questions for this lab!
-
----
-
-# Week 2: Labs 2 and 3
+* No check-off for this lab!
 
 ## Lab 2: Build Your Own Blocks {#lab2}
 
@@ -81,11 +69,9 @@ To get checked off, you should prepare answers to the specific questions for eac
 **More Self-Check Questions**
 
 * Did you customize your flower block in any ways? Be creative.
-* Show your customized bug dance.
+* Show your customized bug dance. 
 
---- 
-
-## Lab 3: Conditionals and Variables {#lab3}
+## Lab 3: Conditionals and Reporters {#lab3}
 
 **Required**
 
@@ -102,7 +88,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ---
 
-# Week 3: Labs 4 and 5
+# Week 2: Labs 4 and 5
 
 ## Lab 4: Functions {#lab4}
 
@@ -136,7 +122,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 
 ---
 
-# Week 4: Lab 6 and 7
+# Week 3: Lab 6 and 7
 
 ## Lab 6: Algorithms {#lab6}
 
@@ -153,52 +139,7 @@ To get checked off, you should prepare answers to the specific questions for eac
 * What is memoization? When is it useful?
 * If you have an unsorted list, do you think it will be faster to use your “Find the number X in Unsorted List” block, or sort the list and use your “Find the number X in Sorted List”? Remember that sorting takes time. 
 
-## Lab 7: Algorithm Complexity {#lab7}
-
-**Required**
-
-* Please show me your Non-Gauss and Gauss Add all numbers in. Which was faster? Why?
-* Of all the runtimes you have discovered thus far, can you rank them from “fastest” to “slowest”? Why is runtime important for the programs that we create?
-* Name the logarithmic time algorithm that we implemented in Lab 6. Explain why this algorithm runs in logarithmic time.
-* What is the difference between “Worst-Case” and “Best Case” Runtimes when running the Are the numbers of (LIST) distinct? block? Why?
-* What happened with the time it took for your computer to counter up the numbers between 1 and x when you started doubling the numbers? Tripling the numbers? What do you think would happen with the time I multiplied your top number by 8?
-
-**More Self-Check Questions**
-
-* Why are constant time algorithms so rare?
-* Why are logarithmic time algorithms sought after?
-
----
-
-# Week 5: Lab 8 
-
-## Lab 8: Finch Lab {#lab8}
-
-**Required**
-
-You can get checked off for this lab as long as you show up to lab and work on it. No questions!
- 
-
----
-
-# Week 6: Labs 9 and 10
-
-## Lab 9: Testing Code and HW3 {#lab9}
-
-**Required**
-
-* How does the **test** block work? What is its domain/range?
-* Show us the output of your **test** block on **merge column**. Explain why this output makes sense, and how the test block is checking this block. 
-* How will writing tests help you for the 2048 assignment? 
-* How do **merge up** and **merge column** work? What are the domain/range of each block? 
-* What is the domain and range of the **update display** block? 
-
-**More Self-Check Questions**
-
-* What tests could you have written for HW2 (Encryptify)?
-* Explain how each of the HW3 blocks (that you are going to fill in as your  hw assignment) are supposed to work, to your lab partner(s).
-
-## Lab 10: Trees and Fractals Using Recursion {#lab10}
+## Lab 7: Trees and Fractals Using Recursion {#lab10}
 **Required**
 
 * Please show me your “crazy-tree” block.
@@ -215,9 +156,9 @@ You can get checked off for this lab as long as you show up to lab and work on i
 
 ---
 
-# Week 7: Lab 11 and 12
+# Week 4: Lab 8 and 9
 
-## Lab 11: Recursive Reporters {#lab11}
+## Lab 8: Recursive Reporters {#lab11}
 
 **Required**
 
@@ -232,86 +173,7 @@ You can get checked off for this lab as long as you show up to lab and work on i
 * Why might we want to write a function recursively instead of iteratively or using a HOF?
 * How might we be able to use recursive reporters to improve runtime?
 
-## Lab 12: Tic-Tac-Toe, Boards {#lab12}
-
-**Required**
-
-* Show your final “ttt” block implementation.
-* How did one of the questions we asked ourselves before starting tic-tac-toe help us design the program?
-* Why did we have variables like “Size”, “Start”, and “Display Width” when designing our board?
-* Show your working board game by moving the sprite around the board.
-* Explain an advantage of using an underlying board structure when designing a game.
-
-**More Self-Check Questions**
-
-* Show your neat end-game feature that you added to the maze game.
-
----
-
-# Week 8: Lab 13
-
-## Lab 13: Functions as Data and HOFs {#lab13}
-
-**Required**
-
-* How can we use functions as data in Snap? What does the gray border do?
-* What do the `call` and `run` blocks do? What’s the difference between them?
-* Show us your `list all factorions between _ and _` block. How does this compare to the `list all pandigital numbers between _ and _` block?
-* Show us your `is _ pandigital?` block and explain how you made it.
-* Explain your `min value of _ over all numbers in _` block. How could we make a version that maximizes instead of minimizing?
-
-
-**More Self-Check Questions**
-
-* How can we store functions as variables or lists? When might it be useful to have a list containing functions?
-* What is the domain and range of the `compose` block? How would you construct the `compose-from-list` block?
-
-
-------
-
-# Week 9: Lab 14
-
-
-## Lab 14: Concurrency {#lab14}
-
-**Required**
-
-* What is a race condition?
-* Is it always true that splitting a task among 10 “workers” is better than splitting it among 5 “workers”?
-* What is the difference between determinism and nondeterminism, in the context of concurrency?
-* How does Snap! handle concurrency?
-* What happened as you added more people in the card sorting activity?
-
-**More Self-Check Questions**
-
-* What were some strategies your team thought of in the card sorting activity? How do these relate to how a computer handles concurrency?
-* Give an example of when concurrency might cause a problem in a computer program.
-
----
-# Week 10: Lab 15
-
-## Lab 15: Recursion with HOFs {#lab15}
-
-**Required**
-
-* Show your `ancestors` block for a couple inputs, such as 'a' and 'b'.
-* Show `me and my descendants` of 'j'.
-
-**More Self-Check Questions**
-
-* Show `path home`.
-* Show `generalized path home`.
-* Show `plants (column) (year)`.
-
----
-# Week 11: Spring Break
-
-
-------
-
-# Week 12: Lab 16 and 17
-
-## Lab 16: Besides Blocks: Welcome to Python {#lab16}
+## Lab 9: Besides Blocks: Welcome to Python {#lab16}
 
 **Required**
 
@@ -327,7 +189,11 @@ You can get checked off for this lab as long as you show up to lab and work on i
 * What is the difference between the "=", "!=", and "==" python commands?
 * What is the domain and range for the "+" function in python?
 
-## Lab 17: Besides Blocks: Data Structures in Python {#lab17}
+---
+
+# Week 5: Lab 10
+
+## Lab 10: Besides Blocks: Data Structures in Python {#lab17}
 
 **Required**
 
@@ -341,42 +207,6 @@ You can get checked off for this lab as long as you show up to lab and work on i
 * How to open the Python interpreter and run a script.
 * How do you make a directory, enter a directory, and check what is inside your current directory?
 * How do you define a function in python?
-
-------
-
-# Week 13: Lab 18
-
-## Lab 18: Besides Blocks: Text Processing in Python {#lab18}
-
-**Required**
-
-* What are the arguments of the `open` function and what does it return?
-* Show us your `count_words` function.
-* How do we choose how something is sorted when using the `sorted` function in Python?
-* Show us your `top_n_words` and `print_top_n_words` functions. 
-* Show us your `average_word_length` function. 
-
-**More Self-Check Questions**
-
-* Complete the remove punctutaion section at the bottom of the Counting Words page.
-* Write the `top_n_words_except` function at the bottom of the Top Words page.
-
-
-------
-
-# Week 14: Lab 19
-
-## Lab 19:The Internet {#lab19}
-
-**Required**
-
-* Chooose between whois and Traceroute, and explain how the command works. What information does it tell you?
-* What is the difference between latency and throughput?
-* What is your information footprint? How could you go about limiting it?
-
-**More Self-Check Questions**
-
-* How does telnet work?
 
 <!-- Keep the /div at the bottom -->
 </div>
