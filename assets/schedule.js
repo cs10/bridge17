@@ -74,8 +74,8 @@ cs10.week2 = {
         reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
     ],
     lectures: [
-        lect('Lists'), 
-        lect('Scoping and Mutability') 
+        lect('Programming Paradigms'), 
+        lect('Lists')
     ],
     labs: [
         lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
@@ -104,12 +104,11 @@ cs10.week3 = {
                 'optional')
     ],
     lectures: [
+        lect('Scoping and Mutability'),
         lect('Algorithms I'), 
-        lect('Algorithms II'), 
-        lect('The Internet')
+        lect('Algorithms II')
     ],
     labs: [
-        lect('Programming Paradigms'), 
         lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic'),
         lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic')
     ],
@@ -132,8 +131,9 @@ cs10.week4 = {
         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/')
     ],
     lectures: [
+        lect('The Internet'),
         lect('Recursion I'), 
-        lect('Recursion II'), 
+        lect('Recursion II')
     ],
     labs: [
         lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
