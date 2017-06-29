@@ -52,7 +52,7 @@ cs10.week1 = {
                 null, "https://youtu.be/REEwEi5CLak"), 
         lect('Subroutines, Data types and D&R', "https://www.icloud.com/keynote/0RFy51kT09cBgejwtxGvUVTYg#Lecture_02-_Subroutines._Data_types._D.R",
                 null, "https://youtu.be/Qsyc1_fvLrM"),
-        lect('Numbers and Abstraction') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QeGNQakQxN3FmMnc')
+        lect('Numbers and Abstraction') 
     ],
     labs: [lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
            lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
@@ -74,9 +74,8 @@ cs10.week2 = {
         reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
     ],
     lectures: [
-        lect('Programming Paradigms'), //, 'https://drive.google.com/drive/folders/0B7pxUEY76zATb1ZMRDFXN25oLVU?usp=sharing'),
-        lect('Lists'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8')
-        lect('Scoping and Mutability') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8'),
+        lect('Lists'), 
+        lect('Scoping and Mutability') 
     ],
     labs: [
         lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
@@ -105,11 +104,12 @@ cs10.week3 = {
                 'optional')
     ],
     lectures: [
-        lect('Algorithms I'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QNXJoT0RKSEc3N2M'),
-        lect('Algorithms II'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QZU1VbTlMLWVhNVE'),
+        lect('Algorithms I'), 
+        lect('Algorithms II'), 
         lect('The Internet')
     ],
     labs: [
+        lect('Programming Paradigms'), 
         lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic'),
         lab('Trees and Fractals Using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic')
     ],
@@ -132,9 +132,8 @@ cs10.week4 = {
         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/')
     ],
     lectures: [
-        lect('Recursion I'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk')
-        lect('Recursion II'), //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTklZQkNYS0NtTlk'),
-        lect('Guest Lecture: Concurrency & Distributed Systems') //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QUlpxdXR4MXV2cWM'),
+        lect('Recursion I'), 
+        lect('Recursion II'), 
     ],
     labs: [
         lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
@@ -156,9 +155,9 @@ cs10.week5 = {
                 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/', 'optional')
     ],
     lectures: [
-        lect('Python I'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QbmFTWlhEa25IZHc?usp=sharing'),
-        lect('Python II'), //, 'https://drive.google.com/drive/folders/0B4KuCtIkhB7QRnFnY0VKNmMyY3M?usp=sharing'),
-        lect('Guest Lecture: Geopolitics') //, 'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QVWxuQzlMcHJKVlk')
+        lect('Python I'), 
+        lect('Python II'), 
+        lect('Guest Lecture: Geopolitics') 
     ],
     labs: [
         lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
