@@ -53,7 +53,7 @@ cs10.week1 = {
         lect('Subroutines, Data types and D&R', "https://www.icloud.com/keynote/0RFy51kT09cBgejwtxGvUVTYg#Lecture_02-_Subroutines._Data_types._D.R",
                 null, "https://youtu.be/Qsyc1_fvLrM"),
         lect('Numbers and Abstraction', "https://www.icloud.com/keynote/0F8poTDN8FuN7G6KWgoYWrxcQ#Lecture_03-_Numbers_and_Abstraction",
-                null, "https://youtu.be/Vkb3l20oL4s") 
+                null, "https://youtu.be/l0n-dBCp6mY") 
     ],
     labs: [lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
            lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
@@ -68,11 +68,13 @@ cs10.week1 = {
 // JUL 3 - 7
 cs10.week2 = {
     readings: [
-//         reading('The Story of Alan Turing &amp; His Machine',
-//                 'https://youtu.be/CQhrMmbiaM0'),
-//         reading('BtB Chapter 1',
-//                 '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
-//         reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
+         reading('The Story of Alan Turing &amp; His Machine',
+                 'https://youtu.be/CQhrMmbiaM0'),
+         reading('Binary in History',
+                 'http://www.nature.com/news/polynesian-people-used-binary-numbers-600-years-ago-1.14380'),
+         reading('What is information theory?',
+                 'https://www.youtube.com/watch?v=d9alWZRzBWk&t=1s'),
+         reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
     ],
     lectures: [
         lect('Programming Paradigms'), 
