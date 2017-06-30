@@ -52,7 +52,8 @@ cs10.week1 = {
                 null, "https://youtu.be/REEwEi5CLak"), 
         lect('Subroutines, Data types and D&R', "https://www.icloud.com/keynote/0RFy51kT09cBgejwtxGvUVTYg#Lecture_02-_Subroutines._Data_types._D.R",
                 null, "https://youtu.be/Qsyc1_fvLrM"),
-        lect('Numbers and Abstraction') 
+        lect('Numbers and Abstraction', "https://www.icloud.com/keynote/0F8poTDN8FuN7G6KWgoYWrxcQ#Lecture_03-_Numbers_and_Abstraction",
+                null, "https://youtu.be/Vkb3l20oL4s") 
     ],
     labs: [lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
            lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
