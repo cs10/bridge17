@@ -68,11 +68,11 @@ cs10.week1 = {
 // JUL 3 - 7
 cs10.week2 = {
     readings: [
-        reading('The Story of Alan Turing &amp; His Machine',
-                'https://youtu.be/CQhrMmbiaM0'),
-        reading('BtB Chapter 1',
-                '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
-        reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
+//         reading('The Story of Alan Turing &amp; His Machine',
+//                 'https://youtu.be/CQhrMmbiaM0'),
+//         reading('BtB Chapter 1',
+//                 '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
+//         reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
     ],
     lectures: [
         lect('Programming Paradigms'), 
@@ -91,18 +91,18 @@ cs10.week2 = {
 // JUL 10 - FEB 14
 cs10.week3 = {
     readings: [
-        reading('What is an Algorithm (book excerpts)?',
-                bcourses('60735934')),
-        reading('How Algorithms Shape Our World',
-                'http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
-        reading('Algorithms Are Great and All...',
-                'http://www.wired.com/2014/11/algorithms-great-can-also-ruin-lives/'),
-        reading('The 10 Algorithms That Dominate Our World',
-                'http://io9.com/the-10-algorithms-that-dominate-our-world-1580110464',
-                'optional'),
-        reading('The real 10 algorithms that dominate our world',
-                'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
-                'optional')
+//         reading('What is an Algorithm (book excerpts)?',
+//                 bcourses('60735934')),
+//         reading('How Algorithms Shape Our World',
+//                 'http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
+//         reading('Algorithms Are Great and All...',
+//                 'http://www.wired.com/2014/11/algorithms-great-can-also-ruin-lives/'),
+//         reading('The 10 Algorithms That Dominate Our World',
+//                 'http://io9.com/the-10-algorithms-that-dominate-our-world-1580110464',
+//                 'optional'),
+//         reading('The real 10 algorithms that dominate our world',
+//                 'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
+//                 'optional')
     ],
     lectures: [
         lect('Scoping and Mutability'),
@@ -128,8 +128,8 @@ cs10.week3 = {
 // JUL 17 - 21
 cs10.week4 = {
     readings: [
-        reading('TED: What is the Internet?', 'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
-        reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/')
+//         reading('TED: What is the Internet?', 'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
+//         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/')
     ],
     lectures: [
         lect('The Internet'),
@@ -149,11 +149,11 @@ cs10.week4 = {
 // JUL 23 - 28
 cs10.week5 = {
     readings: [
-        reading(
-            'Why Python is a Great First Language',
-            'http://blog.trinket.io/why-python/'),
-        reading('As We May Think',
-                'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/', 'optional')
+//         reading(
+//             'Why Python is a Great First Language',
+//             'http://blog.trinket.io/why-python/'),
+//         reading('As We May Think',
+//                 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/', 'optional')
     ],
     lectures: [
         lect('Python I'), 
@@ -174,9 +174,9 @@ cs10.week5 = {
 // AUG 31 - 4
 cs10.week6 = {
     readings: [
-        reading('Humans Need Not Apply - Video',
-                'https://www.youtube.com/watch?v=7Pq-S557XQU'),
-        reading('Present Shock -- When Everything Happened Now', 'https://www.youtube.com/watch?v=_z2oFCR-0pc&feature=youtu.be')
+//         reading('Humans Need Not Apply - Video',
+//                 'https://www.youtube.com/watch?v=7Pq-S557XQU'),
+//         reading('Present Shock -- When Everything Happened Now', 'https://www.youtube.com/watch?v=_z2oFCR-0pc&feature=youtu.be')
     ],
     lectures: [
         lect('Summary and Farewell')
