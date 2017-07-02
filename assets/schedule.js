@@ -78,7 +78,7 @@ cs10.week2 = {
     ],
     lectures: [
         lect('Programming Paradigms'), 
-        lect('Lists')
+        lect('Scoping and Lists')
     ],
     labs: [
         lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
@@ -107,7 +107,7 @@ cs10.week3 = {
 //                 'optional')
     ],
     lectures: [
-        lect('Scoping and Mutability'),
+        lect('Mutability and HOFs'),
         lect('Algorithms I'), 
         lect('Algorithms II')
     ],
