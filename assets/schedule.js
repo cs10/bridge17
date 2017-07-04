@@ -77,7 +77,8 @@ cs10.week2 = {
          reading('Maya Math!', 'http://www.jaguarstones.com/maya/mayamath.html', 'optional')
     ],
     lectures: [
-        lect('Programming Paradigms'), 
+        lect('Programming Paradigms', "https://www.icloud.com/keynote/0e0cMOv8pJwRCHOzhHxPx_HVQ#Lecture_04-_Programming_Paradigms",
+                null, "https://youtu.be/50K98Cb4STc"), 
         lect('Scoping and Lists')
     ],
     labs: [
