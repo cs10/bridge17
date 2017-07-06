@@ -94,18 +94,18 @@ cs10.week2 = {
 // JUL 10 - FEB 14
 cs10.week3 = {
     readings: [
-//         reading('What is an Algorithm (book excerpts)?',
-//                 bcourses('60735934')),
-//         reading('How Algorithms Shape Our World',
-//                 'http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
-//         reading('Algorithms Are Great and All...',
-//                 'http://www.wired.com/2014/11/algorithms-great-can-also-ruin-lives/'),
-//         reading('The 10 Algorithms That Dominate Our World',
-//                 'http://io9.com/the-10-algorithms-that-dominate-our-world-1580110464',
-//                 'optional'),
-//         reading('The real 10 algorithms that dominate our world',
-//                 'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
-//                 'optional')
+         reading('What is an Algorithm (book excerpts)?',
+                 bcourses('60735934')),
+         reading('How Algorithms Shape Our World',
+                 'http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
+         reading('Algorithms Are Great and All...',
+                 'http://www.wired.com/2014/11/algorithms-great-can-also-ruin-lives/'),
+         reading('The real 10 algorithms that dominate our world',
+                 'https://medium.com/@_marcos_otero/the-real-10-algorithms-that-dominate-our-world-e95fa9f16c04',
+                 'optional'),
+         reading('Our brains have a basic algorithm that enables our intelligence',
+                 'https://www.sciencedaily.com/releases/2016/11/161121165921.htm',
+                 'optional')
     ],
     lectures: [
         lect('Mutability and HOFs'),
@@ -120,7 +120,7 @@ cs10.week3 = {
             disc('Internet & Midterm Review')
     ],
     hw: hw2,
-    exams: [exam("Paper Midterm", "", "<br> <strong> Friday 07/14 </strong> <br> <u> 3-5PM 306 Soda </u>")]
+    exams: [exam("Paper Midterm", "<br> <strong> Friday 07/14 </strong> <br> <u> 3-5PM 306 Soda </u>")]
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';

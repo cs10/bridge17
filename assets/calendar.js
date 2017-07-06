@@ -407,7 +407,6 @@ cs10.renderTableExam = function(exams) {
         exams = [{}];
     }
     var result = $('<td>');
-    console.log("From rendertableexam");
     if (!(exams instanceof Array)) {
         exams = [ exams ];
     }
@@ -415,10 +414,11 @@ cs10.renderTableExam = function(exams) {
     for (var i = 0; i < exams.length; i += 1) {
         var exam = exams[i];
         var t = exam.title ? exam.title : "";
-        exam.title = title = $('<a>').attr({href: exam.url}).html(exam.title);
+        //exam.title = title = $('<a>').attr({href: exam.url}).html(exam.title);
         result.append(exam.title);
-        if (i + 1 < exams.length) {
-            result.append('<hr style="height:1px;color:white;background-color:white;" />');
+        if (exam.url) {
+            result.append('<br>');
+            result.append(exam.url);
         }
     }
     return result;
