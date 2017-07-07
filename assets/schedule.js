@@ -79,7 +79,8 @@ cs10.week2 = {
     lectures: [
         lect('Programming Paradigms', "https://www.icloud.com/keynote/0e0cMOv8pJwRCHOzhHxPx_HVQ#Lecture_04-_Programming_Paradigms",
                 null, "https://youtu.be/50K98Cb4STc"), 
-        lect('Scoping and Lists')
+        lect('Scoping and Lists', "https://www.icloud.com/keynote/0nQnHkCwGP4acAHJXRZHHBTIA#Lecture_05-_Scoping_._Lists",
+                null, "https://youtu.be/EMroJaUnMck")
     ],
     labs: [
         lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
