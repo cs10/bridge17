@@ -86,7 +86,7 @@ cs10.newReadingsObject = function(title, url, classes) {
     return reading;
 };
 
-cs10.newLectureObject = function(title, path, presenter, video) {
+cs10.newLectureObject = function(title, slides, video) {
     var lect = { type: 'Lecture' };
     cs10.lectCounter = cs10.lectCounter || 0;
     if (!title) {
@@ -101,8 +101,7 @@ cs10.newLectureObject = function(title, path, presenter, video) {
     if (title.indexOf('No Lecture') !== -1 || title.indexOf('No Class') !== -1) {
         lect.classes = 'noClass';
     }
-    lect.url = path;
-    lect.guest = presenter;
+    lect.slides = slides;
     lect.video = video;
     return lect;
 };
@@ -285,19 +284,17 @@ cs10.renderTableLecture = function(lectures) {
         } else if (typeof lect === 'string') {
             result.append(lect);
         } else {
-            if (lect.guest) {
-                result.append($('<strong>').html('Guest Lecturer: ' + lect.guest));
-                result.append($('<br>'));
-            }
             var title = lect.title;
             result.append(title);
             result.append('<br>');
+            if (lect.slides) {
+                result.append($('<a>').attr({href: lect.slides, target:"_blank"}).html('Slides'))
+            }
             if (lect.video) {
-                result.append($('<a>').attr({href: lect.url, target:"_blank"}).html('Slides'))
                 result.append(' | ');
                 result.append($('<a>').attr({href: lect.video, target:"_blank"}).html('Video'))
             }
-            result.attr({ 'class' : lect.classes });
+            //result.attr({ 'class' : lect.classes });
             if (i + 1 < lectures.length) {
                 result.append('<hr style="height:1px;color:white;background-color:white;" />');
             }
@@ -414,7 +411,6 @@ cs10.renderTableExam = function(exams) {
     for (var i = 0; i < exams.length; i += 1) {
         var exam = exams[i];
         var t = exam.title ? exam.title : "";
-        //exam.title = title = $('<a>').attr({href: exam.url}).html(exam.title);
         result.append(exam.title);
         if (exam.url) {
             result.append('<br>');

@@ -49,11 +49,11 @@ cs10.week1 = {
     ],
     lectures: [
         lect('Welcome & Abstraction', "https://www.icloud.com/keynote/0fewPMRrDWfv3pkmykATfo87Q#Lecture_01_Welcome_and_Abstraction",
-                null, "https://youtu.be/REEwEi5CLak"), 
+                "https://youtu.be/REEwEi5CLak"), 
         lect('Subroutines, Data types and D&R', "https://www.icloud.com/keynote/0RFy51kT09cBgejwtxGvUVTYg#Lecture_02-_Subroutines._Data_types._D.R",
-                null, "https://youtu.be/Qsyc1_fvLrM"),
+                "https://youtu.be/Qsyc1_fvLrM"),
         lect('Numbers and Abstraction', "https://www.icloud.com/keynote/0F8poTDN8FuN7G6KWgoYWrxcQ#Lecture_03-_Numbers_and_Abstraction",
-                null, "https://youtu.be/l0n-dBCp6mY") 
+                "https://youtu.be/l0n-dBCp6mY") 
     ],
     labs: [lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
            lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
@@ -78,9 +78,9 @@ cs10.week2 = {
     ],
     lectures: [
         lect('Programming Paradigms', "https://www.icloud.com/keynote/0e0cMOv8pJwRCHOzhHxPx_HVQ#Lecture_04-_Programming_Paradigms",
-                null, "https://youtu.be/50K98Cb4STc"), 
+                "https://youtu.be/50K98Cb4STc"), 
         lect('Scoping and Lists', "https://www.icloud.com/keynote/0nQnHkCwGP4acAHJXRZHHBTIA#Lecture_05-_Scoping_._Lists",
-                null, "https://youtu.be/EMroJaUnMck")
+                "https://youtu.be/EMroJaUnMck")
     ],
     labs: [
         lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic'),
@@ -109,7 +109,7 @@ cs10.week3 = {
                  'optional')
     ],
     lectures: [
-        lect('Mutability and HOFs'),
+        lect('Mutability and HOFs', "https://www.icloud.com/keynote/0EHgud9G8hw9fjvq_PTY0ZgoA#Lecture_06-_Mutability_and_HOFs"),
         lect('Algorithms I'), 
         lect('Algorithms II')
     ],
@@ -132,6 +132,7 @@ cs10.week3 = {
 // JUL 17 - 21
 cs10.week4 = {
     readings: [
+          // Moore's Law reading.
 //         reading('TED: What is the Internet?', 'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
 //         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/')
     ],
