@@ -31,7 +31,7 @@ var hw1Spec         = docs('12892Y0YgHAuA-V0kLmam7jKsDKAoPWg7rcf_fu5AhJg')
     finalProjSpec   = docs('1dJdqxrLtC6q5kSXazyhxoOUM0ERc1kkGiPAGH60ajtw')
     hw0             = hw('HW0', '06/30', 'quizzes/2270065')
     hw1             = hw('HW1: Word Guessing', '07/07', 'assignments/7803899', hw1Spec)
-    hw2             = hw('HW2: Encryptify', '07/19', 'assignments/7803900') //, hw2Spec)
+    hw2             = hw('HW2: Encryptify', '07/19', 'assignments/7803900', hw2Spec)
     fProposal       = hw('Final Project Proposal', '07/20') //, 'assignments/7803898', finalProjSpec)\
     fProject        = hw('Final Project', '08/02') //, 'assignments/7803896', finalProjSpec)
 
