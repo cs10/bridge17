@@ -121,7 +121,7 @@ cs10.week3 = {
             disc('Internet & Midterm Review')
     ],
     hw: hw2,
-    exams: [exam("Paper Midterm", "<br> <strong> Friday 07/14 </strong> <br> <u> 3-5PM 306 Soda </u>")]
+    exams: [exam("Paper Midterm", "<br> <strong> Friday 07/14 </strong> <br> <u> 5-7PM 306 Soda </u>")]
 };
 // cs10.week3.lect3.classes = 'exam';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -132,14 +132,18 @@ cs10.week3 = {
 // JUL 17 - 21
 cs10.week4 = {
     readings: [
-          // Moore's Law reading.
-//         reading('TED: What is the Internet?', 'https://www.ted.com/talks/andrew_blum_what_is_the_internet_really?language=en'),
-//         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/')
+        reading("What is the Internet?", "https://www.youtube.com/watch?v=Dxcc6ycZ73M"),
+        reading("The Internet: Packets, Routing & Reliability", "https://www.youtube.com/watch?v=AYdF7b3nMto"),
+        reading("The Internet: Cybersecurity and Crime", "https://www.youtube.com/watch?v=AuYNXgO_f3Y"),
+        reading("The Future of Computer Chips", 
+                "https://www.nytimes.com/2015/09/27/technology/smaller-faster-cheaper-over-the-future-of-computer-chips.html?_r=0"),
+         reading('A World Without Work', 'http://www.theatlantic.com/magazine/archive/2015/07/world-without-work/395294/',
+                 'optional')
     ],
     lectures: [
-        lect('The Internet'),
         lect('Recursion I'), 
-        lect('Recursion II')
+        lect('Recursion II'),
+        lect('Guest Lecture: Geopolitics') 
     ],
     labs: [
         lab('Recursive Reporters', 'berkeley_bjc/recur/recursive-reporters-part1.topic'),
@@ -161,18 +165,20 @@ cs10.week5 = {
 //                 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/', 'optional')
     ],
     lectures: [
-        lect('Python I'), 
+        lect('Python I'),
         lect('Python II'), 
-        lect('Guest Lecture: Geopolitics') 
+        lect('Guest Lecture: Design') 
     ],
     labs: [
-        lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
-        exam("With-snap<i>!</i> and Python Final", "", "<br> <strong> Friday 07/28 </strong> <br> <u> 10-12AM at 277 Soda </u> ")
+        lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic')
     ],
     disc: [disc('Python'),
             disc('Farewell')
     ],
-    hw: fProject
+    hw: fProject,
+    exams: [
+        exam("With-snap<i>!</i> and Python Final", "<br> <strong> Friday 07/28 </strong> <br> <u> 10-12AM in Lab </u>")
+    ]
 };
 
 
@@ -190,7 +196,8 @@ cs10.week6 = {
         lab("Project Work Session")
     ],
     hw: fProject,
-    exams: [exam("Paper Final", "", "<br> <strong> Tuesday 08/01 </strong> <br> <u> 9-11PM 306 Soda </u>")
+    exams: [
+        exam("Paper Final", "<br> <strong> Tuesday 08/01 </strong> <br> <u> 9-11PM 306 Soda </u>")
     ]
 };
 
