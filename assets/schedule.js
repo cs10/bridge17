@@ -109,7 +109,8 @@ cs10.week3 = {
                  'optional')
     ],
     lectures: [
-        lect('Mutability and HOFs', "https://www.icloud.com/keynote/0EHgud9G8hw9fjvq_PTY0ZgoA#Lecture_06-_Mutability_and_HOFs"),
+        lect('Mutability and HOFs', "https://www.icloud.com/keynote/0EHgud9G8hw9fjvq_PTY0ZgoA#Lecture_06-_Mutability_and_HOFs",
+                "https://www.youtube.com/watch?v=Gel6EOmf1d4"),
         lect('Algorithms I'), 
         lect('Algorithms II')
     ],
