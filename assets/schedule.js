@@ -111,7 +111,8 @@ cs10.week3 = {
     lectures: [
         lect('Mutability and HOFs', "https://www.icloud.com/keynote/0EHgud9G8hw9fjvq_PTY0ZgoA#Lecture_06-_Mutability_and_HOFs",
                 "https://www.youtube.com/watch?v=Gel6EOmf1d4"),
-        lect('Algorithms I', "https://www.icloud.com/keynote/0NvQgncfVTCLfvkyxOPpSPDQw#Lecture_07__Algorithms_I"),
+        lect('Algorithms I', "https://www.icloud.com/keynote/0NvQgncfVTCLfvkyxOPpSPDQw#Lecture_07__Algorithms_I",
+                "https://youtu.be/UhUKr4YkrQY"),
         lect('Algorithms II')
     ],
     labs: [
