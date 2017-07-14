@@ -113,7 +113,8 @@ cs10.week3 = {
                 "https://www.youtube.com/watch?v=Gel6EOmf1d4"),
         lect('Algorithms I', "https://www.icloud.com/keynote/0NvQgncfVTCLfvkyxOPpSPDQw#Lecture_07__Algorithms_I",
                 "https://youtu.be/UhUKr4YkrQY"),
-        lect('Algorithms II', "https://www.icloud.com/keynote/0RSZtjTbP98tLe_K7Nn8uyljA#Lecture_08__Algorithms_II")
+        lect('Algorithms II', "https://www.icloud.com/keynote/0RSZtjTbP98tLe_K7Nn8uyljA#Lecture_08__Algorithms_II",
+                "https://youtu.be/-bRj_Ic-8JY")
     ],
     labs: [
         lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic'),
