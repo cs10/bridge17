@@ -162,11 +162,9 @@ cs10.week4 = {
 // JUL 23 - 28
 cs10.week5 = {
     readings: [
-//         reading(
-//             'Why Python is a Great First Language',
-//             'http://blog.trinket.io/why-python/'),
-//         reading('As We May Think',
-//                 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/', 'optional')
+         reading(
+             'Why Python is a Great First Language',
+             'http://blog.trinket.io/why-python/')
     ],
     lectures: [
         lect('Python I'),
