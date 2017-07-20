@@ -146,7 +146,8 @@ cs10.week4 = {
     lectures: [
         lect('Recursion I', 'https://www.icloud.com/keynote/07Helahs2isAqdmUpipdiylzA#Lecture_10__Recursion_I',
                 'https://www.youtube.com/watch?v=4QCZ3CQLodg'),
-        lect('Recursion II', 'https://www.icloud.com/keynote/0C7GLVygj3H2X9TOad1vqaf3A#Lecture_11__Recursion_II'),
+        lect('Recursion II', 'https://www.icloud.com/keynote/0C7GLVygj3H2X9TOad1vqaf3A#Lecture_11__Recursion_II',
+                'https://www.youtube.com/watch?v=TsoEHHK3OFQ&feature=youtu.be'),
         lect('Guest Lecture: Geopolitics', 'https://docs.google.com/presentation/d/1q9-tepHglcE8GFxWx6Moy1zkYHOvd5QzNiU2i5z8_rE/pub?start=false&loop=false&delayms=3000&slide=id.p4') 
     ],
     labs: [
