@@ -28,7 +28,7 @@ function lectureURL(googId) {
 // CONSTANTS:
 var hw1Spec         = docs('12892Y0YgHAuA-V0kLmam7jKsDKAoPWg7rcf_fu5AhJg')
     hw2Spec         = docs('1X4Oq4aZSsNBl-f5xEwWAkNxUo7-ktAWFKRyEr9fHDUQ')
-    finalProjSpec   = docs('2PACX-1vSHQHBw1CqCvxswXxGX0xuIfqy9gxh1o_jEjZcy8E77fMJ9C2HbmyaPUlhHhiaIYBLZRFmFKHMlG49L')
+    finalProjSpec   = docs('1Kbx4UqaFafS2Au7y1qIVu2lIOAFGT2QwcukqmpUUZ3M')
     hw0             = hw('HW0', '06/30', 'quizzes/2270065')
     hw1             = hw('HW1: Word Guessing', '07/07', 'assignments/7803899', hw1Spec)
     hw2             = hw('HW2: Encryptify', '07/19', 'assignments/7803900', hw2Spec)
