@@ -169,7 +169,7 @@ cs10.week5 = {
              'http://blog.trinket.io/why-python/')
     ],
     lectures: [
-        lect('Python I'),
+        lect('Python I', 'https://drive.google.com/open?id=1frVJMI0nzOyctZi9uOdLqNP2P4-WaaFaCf5t791GVho'),
         lect('Python II'), 
         lect('Guest Lecture: Design') 
     ],
