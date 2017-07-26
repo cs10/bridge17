@@ -182,7 +182,7 @@ cs10.week5 = {
     ],
     hw: fProject,
     exams: [
-        exam("With-snap<i>!</i> and Python Final", "<br> <strong> Friday 07/28 </strong> <br> <u> 10-12AM in Lab </u>")
+        exam("With-snap<i>!</i> and Python Final", "<br> <strong> Friday 07/28 </strong> <br> <u> 10AM-12PM in Lab </u>")
     ]
 };
 
@@ -202,7 +202,7 @@ cs10.week6 = {
     ],
     hw: fProject,
     exams: [
-        exam("Paper Final", "<br> <strong> Tuesday 08/01 </strong> <br> <u> 9-11PM 306 Soda </u>")
+        exam("Paper Final", "<br> <strong> Tuesday 08/01 </strong> <br> <u> 9-11AM 306 Soda </u>")
     ]
 };
 
