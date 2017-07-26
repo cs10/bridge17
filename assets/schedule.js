@@ -171,7 +171,8 @@ cs10.week5 = {
     lectures: [
         lect('Python I', 'https://drive.google.com/open?id=1frVJMI0nzOyctZi9uOdLqNP2P4-WaaFaCf5t791GVho',
                 'https://youtu.be/Og-LUTwoxVY'),
-        lect('Python II'), 
+        lect('Python II', 'https://docs.google.com/a/berkeley.edu/presentation/d/1_Q_4c1qraTWCqghe6Gq7dcJxAseTGJOPR04fE_vXVok/edit?usp=sharing',
+                'https://youtu.be/8E6WsJPU80Y'), 
         lect('Guest Lecture: Design') 
     ],
     labs: [
