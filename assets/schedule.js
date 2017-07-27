@@ -183,7 +183,7 @@ cs10.week5 = {
     ],
     hw: fProject,
     exams: [
-        exam("With-snap<i>!</i> and Python Final", "<br> <strong> Friday 07/28 </strong> <br> <u> 10AM-12PM in Lab </u>")
+        exam("With-snap<i>!</i> Final", "<br> <strong> Friday 07/28 </strong> <br> <u> 10AM-12PM in Lab </u>")
     ]
 };
 
