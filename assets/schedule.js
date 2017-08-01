@@ -173,7 +173,7 @@ cs10.week5 = {
                 'https://youtu.be/Og-LUTwoxVY'),
         lect('Python II', 'https://docs.google.com/a/berkeley.edu/presentation/d/1_Q_4c1qraTWCqghe6Gq7dcJxAseTGJOPR04fE_vXVok/edit?usp=sharing',
                 'https://youtu.be/8E6WsJPU80Y'), 
-        lect('Guest Lecture: Design') 
+        lect('Guest Lecture: Design', 'https://docs.google.com/presentation/d/1rPSR2X57vu_Vh-VmUr-7GpB1XxI7CkyGpMdvyRtPeWc/edit#slide=id.p4') 
     ],
     labs: [
         lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic')
@@ -196,7 +196,7 @@ cs10.week6 = {
 //         reading('Present Shock -- When Everything Happened Now', 'https://www.youtube.com/watch?v=_z2oFCR-0pc&feature=youtu.be')
     ],
     lectures: [
-        lect('Summary and Farewell')
+        lect('Summary and Farewell', 'https://docs.google.com/a/berkeley.edu/presentation/d/1CB_QdUih56j0uCY5pf8i9tLxCDXbiOgJQtvzOBRXO9Q/edit?usp=sharing')
     ],
     labs: [
         lab("Project Work Session")
