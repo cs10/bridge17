@@ -203,7 +203,7 @@ cs10.week6 = {
     ],
     hw: fProject,
     exams: [
-        exam("Paper Final", "<br> <strong> Tuesday 08/01 </strong> <br> <u> 9-11AM 306 Soda </u>")
+        exam("Paper Final", "<br> <strong> Wednesday 08/02 </strong> <br> <u> 10-12PM 56 Barrows </u>")
     ]
 };
 
